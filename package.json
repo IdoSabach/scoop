@@ -12,5 +12,8 @@
   "dependencies": {
     "express": "^4.19.2",
     "playwright": "^1.44.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
   }
 }
