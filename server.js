@@ -61,7 +61,7 @@ app.get("/screenshot", async (req, res) => {
       browserPool.releaseBrowser(browser);
     }
     console.error(error);
-    res.status(500).json({ error: "Failed to take screenshot });
+    res.status(500).json({ error: "Failed to take screenshot" });
   }
 });
 
